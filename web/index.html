@@ -4,29 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatiblle" content="ie=edge">
-    <title>Title</title>
+    <title>Spectrogram</title>
     <script type="text/javascript" src="/eel.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-    <h1>Title</h1>
+    <h1>Spectrogram</h1>
     <input id="input" type="file"/>
-    Enter Output Filename:
-    <textarea id = "filename" ></textarea>
     <button id="button1" onclick="spectro()">
         RUN
     </button>
-    <table style="width:auto">
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>1</td>
-        </tr>
-    </table>
-    <img id="output">
-</body>
+    <div id = 'spl_table'style="height:270x;width:270px;overflow:auto;"></div>
+    <div id = 'output_image' style="height:540px;width:1080px;overflow:auto;">
+        <img id="output">
+    </div>
 
+    
+</body>
 </html>
+
